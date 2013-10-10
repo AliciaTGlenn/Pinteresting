@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 1.2'
 # To style webpage with ease and sometime you can specify the version of the gem for future reference
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch:'3' 
 
+# for user authentication
+gem 'devise', '~> 3.1.0.rc2'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
