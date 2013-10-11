@@ -31,6 +31,9 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass', branch:'3'
 # for user authentication
 gem 'devise', '~> 3.1.0.rc2'
 
+#image uploader
+gem 'paperclip', '~> 3.0'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
