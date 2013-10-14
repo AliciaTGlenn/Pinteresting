@@ -34,6 +34,9 @@ gem 'devise', '~> 3.1.0.rc2'
 #image uploader
 gem 'paperclip', '~> 3.0'
 
+#host photos on heroku
+gem 'aws-sdk', '~> 1.16.1'
+
 group :development, :test do
 # Use sqlite3 as the database for Active Record
 	gem 'sqlite3'
